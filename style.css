@@ -1,15 +1,21 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
 .lineContainer{
     display: flex;
-     flex-direction: row;
-    border: 5px solid darkblue;
-    background: green;
-    height: 40px;
-    width: 500px;
+    flex-direction: row;
+    justify-content: center;
+    width: 960px;
 }
 
-.column{
-    border: 5px solid white;
-    background: red; 
-    height: 30px;
-    width: 30px;
+.square{
+    border: 1px solid black;
+    background: white; 
+}
+
+#grid-setup{
+    margin: 10px;
+    font-size: 20px;
 }
