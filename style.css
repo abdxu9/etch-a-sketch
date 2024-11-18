@@ -1,0 +1,15 @@
+.lineContainer{
+    display: flex;
+     flex-direction: row;
+    border: 5px solid darkblue;
+    background: green;
+    height: 40px;
+    width: 500px;
+}
+
+.column{
+    border: 5px solid white;
+    background: red; 
+    height: 30px;
+    width: 30px;
+}
